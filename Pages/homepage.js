@@ -8,12 +8,12 @@ const Homepage = () => {
     <ThemeProvider>
       <View>
         <Text>
-          <h1>Welcome back, user!</h1>{" "}
+          <h1>Welcome back, Joe!</h1>{" "}
         </Text>
         <Card style={{ width: 2000 }}>
           <Text style={{ margin: 20 }}>
             <h2>Activity Tracker</h2>
-            <BarChart></BarChart>
+            {/* <BarChart></BarChart> */}
           </Text>
         </Card>
       </View>

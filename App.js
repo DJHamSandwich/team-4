@@ -1,14 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { ThemeProvider } from "react-native-elements";
-import Homepage from "./team-4/Pages/homepage";
+import Profile from './Pages/profile';
 
 export default function App() {
   return (
     <ThemeProvider>
       {" "}
       <View style={styles.container}>
-        <Homepage />
+        <Profile />
         {/* <Text>Hello World</Text> */}
       </View>
     </ThemeProvider>
