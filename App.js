@@ -1,25 +1,12 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { ThemeProvider } from "react-native-elements";
-import Profile from './Pages/profile';
+import "react-native-gesture-handler";
+import { NavigationContainer } from "@react-navigation/native";
+import StackNavigator from "./navigators/stackNavigator";
 
 export default function App() {
   return (
-    <ThemeProvider>
-      {" "}
-      <View style={styles.container}>
-        <Profile />
-        {/* <Text>Hello World</Text> */}
-      </View>
-    </ThemeProvider>
+    <NavigationContainer>
+      <StackNavigator />
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center"
-  }
-});
