@@ -8,9 +8,14 @@ const Activities = () => {
     return (
         <ThemeProvider>
             <View>
-                <Text>
-                    <h1>Activities page</h1>{" "}
-                </Text>
+                <RNPickerSelect
+                    onValueChange={(value) => console.log(value)}
+                    items={[
+                        { label: 'Football', value: 'football' },
+                        { label: 'Baseball', value: 'baseball' },
+                        { label: 'Hockey', value: 'hockey' },
+                    ]}
+                />
                 <Card style={{ width: 2000 }}>
                     <Text style={{ margin: 20 }}>
                         <h2>'BARCHART or something'</h2>
