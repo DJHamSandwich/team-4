@@ -1,0 +1,13 @@
+    {/* <View>
+                {list.map((l, i) => (
+                  <ListItem
+                    style={{ padding: 20 }}
+                    key={i}
+                    leftAvatar={{ source: { uri: l.avatar_url } }}
+                    title={l.name}
+                    subtitle={l.subtitle}
+                    bottomDivider
+                    chevron
+                  />
+                ))}
+              </View> */}
