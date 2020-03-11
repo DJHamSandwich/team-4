@@ -8,11 +8,11 @@ const Homepage = () => {
     <ThemeProvider>
       <View>
         <Text>
-          <h1>Welcome back, Joe!</h1>{" "}
+          <h1>Homepage</h1>{" "}
         </Text>
         <Card style={{ width: 2000 }}>
           <Text style={{ margin: 20 }}>
-            <h2>Activity Tracker</h2>
+            <h2>Go To Activity Tracker</h2>
             {/* <BarChart></BarChart> */}
           </Text>
         </Card>
